@@ -94,7 +94,7 @@ body.multiple-scenes.mobile #titleBar {
 .mobile #titleBar .sceneName {
   line-height: 40px;
 }
-
+ 
 #fullscreenToggle {
   display: none;
   position: absolute;
