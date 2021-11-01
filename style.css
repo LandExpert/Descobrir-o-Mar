@@ -13,7 +13,7 @@
   -webkit-user-drag: none;
   -webkit-touch-callout: none;
   -ms-content-zooming: none;
-  -webkit-tap-highlight-color: rgba(0,250,0,0);
+  -webkit-tap-highlight-color: rgba(70, 0, 200, 0);
 }
 
 html, body {
@@ -25,7 +25,7 @@ html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
-  color: #ffff66;
+  color: #ffff;
 }
 
 a, a:hover, a:active, a:visited {
