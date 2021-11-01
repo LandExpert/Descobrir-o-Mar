@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Descobrir o Mar</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-mainentrace">
+        <li class="text">MainEntrace</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-hall">
+        <li class="text">Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-elevator-apartments">
+        <li class="text">Elevator-Apartments</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-elevator-garage">
+        <li class="text">Elevator-Garage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-swimingpoolaccess1">
+        <li class="text">SwimingPoolAccess1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-swimingpoolaccess2">
+        <li class="text">SwimingPoolAccess2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-swimingpool1">
+        <li class="text">SwimingPool1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-swimingpool2">
+        <li class="text">SwimingPool2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-t1-entrance">
+        <li class="text">T1-Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-t1-hall">
+        <li class="text">T1-Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-t1-kitchen">
+        <li class="text">T1-Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-t1-barbeque">
+        <li class="text">T1-Barbeque</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-t1-livingroom">
+        <li class="text">T1-LivingRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-t1-balcony1">
+        <li class="text">T1-Balcony1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-t1-bedroom">
+        <li class="text">T1-BedRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-t1-balcony2">
+        <li class="text">T1-Balcony2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-t1-toilet">
+        <li class="text">T1-Toilet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-t2-entrance">
+        <li class="text">T2-Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-t2-hall">
+        <li class="text">T2-Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-t2-kitchen">
+        <li class="text">T2-Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-t2-balcony1">
+        <li class="text">T2-Balcony1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-t2-livingroom">
+        <li class="text">T2-LivingRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-t2-balcony2">
+        <li class="text">T2-Balcony2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-t2-corridor">
+        <li class="text">T2-Corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-t2-bedroom">
+        <li class="text">T2-BedRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-t2-bedroomview">
+        <li class="text">T2-BedRoomView</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-t2-suiteentry">
+        <li class="text">T2-SuiteEntry</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-t2-suite">
+        <li class="text">T2-Suite</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-t2-suiteview">
+        <li class="text">T2-SuiteView</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-t2-toilet">
+        <li class="text">T2-Toilet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-t2-bathroom">
+        <li class="text">T2-BathRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-t3-entrance">
+        <li class="text">T3-Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-t3-hall">
+        <li class="text">T3-Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-t3-kitchen">
+        <li class="text">T3-Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-t3-balcony3">
+        <li class="text">T3-Balcony3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-t3-livingroom">
+        <li class="text">T3-LivingRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-t3-balcony1">
+        <li class="text">T3-Balcony1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-t3-balcony2">
+        <li class="text">T3-Balcony2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-t3-corridor1">
+        <li class="text">T3-Corridor1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-t3-toilet">
+        <li class="text">T3-Toilet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-t3-corridor2">
+        <li class="text">T3-Corridor2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-t3-bedroom2">
+        <li class="text">T3-BedRoom2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-t3-balcony4">
+        <li class="text">T3-Balcony4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-t3-bedroom1">
+        <li class="text">T3-BedRoom1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-t3-balcony5">
+        <li class="text">T3-Balcony5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-t3-suite">
+        <li class="text">T3-Suite</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-t3-bathroom">
+        <li class="text">T3-BathRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-garage1">
+        <li class="text">Garage1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-garage2">
+        <li class="text">Garage2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-garage3">
+        <li class="text">Garage3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-garage4">
+        <li class="text">Garage4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-garage5">
+        <li class="text">Garage5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-garage6">
+        <li class="text">Garage6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-grarageexit">
+        <li class="text">GrarageExit</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
